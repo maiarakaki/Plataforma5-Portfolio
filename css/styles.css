@@ -1,0 +1,124 @@
+#profile {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 100% 100%;
+}
+
+#profile-pic, #title, #about, #contact {
+    margin-top: 20px;
+}
+
+.header, #portfolio, #about, #contact  > h2{
+    text-align: center;
+}
+
+
+#portfolio, #contact{
+    width: 100vw;
+    background-color: #DCD0FF;
+    margin-top: 20px;
+    padding-top: 3%;
+
+}
+
+#portfolio > .row {
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+#portfolio > .row >.col{
+    padding: 3%;
+}
+
+#portfolio > .row > .col> img{
+    width:300px;
+    max-height: 300px;
+    border-radius: 10%;
+    object-fit: cover;
+    object-position: 100% ;
+}
+
+#about, #contact {
+    /* margin-top:5%; */
+    padding: 3% 10% 3% 10%;
+}
+
+/* #contact-form > .btn {
+    left: 50%;
+    position:relative;
+} */
+
+footer{
+    font-size: xx-small;
+    text-align: center;
+}
+
+#direccion, #redes{
+    text-align: left;
+    font-size:medium;
+    margin-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+}
+
+
+#direccion > h4, #redes > .row > h4 {
+    font-size: medium;
+    font-variant: small-caps;
+}
+
+#hredes {
+    text-align: center;
+}
+
+
+.fa-brands:hover {
+    opacity: 0.7;
+}
+
+.fa-brands {
+    font-size:25px;
+}
+
+#social-media-icons{
+    text-align: center;
+}
+
+.fa-brands{
+    padding: 5px;
+    color:white;
+}
+
+/* 
+
+.fa-linkedin{
+    color:#0e76a8;
+}
+
+.fa-github{
+    color:#171515;
+}
+
+.fa-instagram{
+    color: #C13584;
+}
+
+.fa-discord{
+    color:#5865F2;
+}  */
+
+#footer-contact {
+    background-color: #8D81B3;
+    
+}
+
+#copyright {
+    background-color: #6E6980;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
