@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/color-game.css" />
+  </head>
+  <body>
+    <h1 style="background: steelblue">
+      The Great
+      <span id="colorDisplay"><!-- rgb(240, 14, 128) El codigo RGB del color ganador --></span>
+      Guessing Game
+    </h1>
+    <div id="stripe">
+      <button id="reset">Nuevos Colores</button>
+      <span id="message"><!-- Aquí va el mensaje de intentalo nuevamente o correcto --></span>
+      <button class="difficulty-btn" id="easyButton">Easy</button>
+      <button class="selected difficulty-btn" id="hardButton">Hard</button>
+    </div>
+
+    <div class="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+    <script src="../js/color-game.js"></script>
+  </body>
+</html>
