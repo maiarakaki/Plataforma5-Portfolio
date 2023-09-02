@@ -2,9 +2,13 @@
 
 
 body {
-  background: #232323;
+  background: #DCD0FF;
   margin: 0;
   font-family: 'Sen', sans-serif;
+}
+
+nav{
+  background-color: white;
 }
 
 #colorDisplay {
@@ -29,7 +33,7 @@ button {
   text-transform: uppercase;
   height: 100%;
   font-weight: 700;
-  color: steelblue;
+  color: #6E6980;
   letter-spacing: 1px;
   font-size: inherit;
   transition: all 0.3s;
@@ -49,7 +53,7 @@ button {
   transition: background 0.5s;
 }
 
-.container {
+.colors-container {
   max-width: 600px;
   margin: 0 auto;
   margin-top: 20px;
@@ -60,6 +64,7 @@ h1 {
   text-align: center;
   margin: 0;
   text-transform: uppercase;
+  background: #8D81B3;
 }
 
 #message {
@@ -67,6 +72,6 @@ h1 {
 }
 
 .selected {
-  background-color: steelblue;
+  background-color: #8D81B3;
   color: white;
 }
