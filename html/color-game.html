@@ -12,45 +12,86 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1">Maite Arakaki</span>
+          <a href="../index.html"><span class="navbar-brand mb-0 h1">Maite Arakaki</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
+              <a class="nav-link" aria-current="page" href="../index.html#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">Acerca de mí</a>
+              <a class="nav-link" href="../index.html#about">Acerca de mí</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contacto</a>
+              <a class="nav-link" href="../index.html#contact">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h1 >
-      The Great
-      <span id="colorDisplay"><!-- rgb(240, 14, 128) El codigo RGB del color ganador --></span>
-      Guessing Game
-    </h1>
-    <div id="stripe">
-      <button id="reset">Nuevos Colores</button>
-      <span id="message"><!-- Aquí va el mensaje de intentalo nuevamente o correcto --></span>
-      <button class="difficulty-btn" id="easyButton">Easy</button>
-      <button class="selected difficulty-btn" id="hardButton">Hard</button>
-    </div>
-
-    <div class="colors-container">
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
+    <div id="game-body">
+      <h1 >
+        The Great
+        <span id="colorDisplay"><!-- rgb(240, 14, 128) El codigo RGB del color ganador --></span>
+        Guessing Game
+      </h1>
+      <div id="stripe">
+        <button id="reset">Nuevos Colores</button>
+        <span id="message"><!-- Aquí va el mensaje de intentalo nuevamente o correcto --></span>
+        <button class="difficulty-btn" id="easyButton">Easy</button>
+        <button class="selected difficulty-btn" id="hardButton">Hard</button>
+      </div>
+  
+      <div class="colors-container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
     </div>
     <script src="../js/color-game.js"></script>
   </body>
+      <footer>
+      <div class="container-fluid" id="footer-contact">
+        <div class="row">
+          <div class="col"> <!--Columna izquierda-->
+            <div id="direccion">
+              <h4>Dirección</h4>
+              <p>Guillermo Marconi 3720<br/>B1605ARF, Munro</p>
+            </div>
+          </div>
+          
+          <div class="col"> <!--Columna derecha-->
+            <div id="redes">
+              <div class="row text-center"><!--fila de titulo-->
+                <h4>En las redes</h4>
+              </div>
+              <div class="row"> <!--fila de iconos-->
+                <div class="col" id="social-media-icons">
+                  <a href="https://www.linkedin.com/in/maite-arakaki/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
+                  <a href="https://github.com/maiarakaki" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://discordapp.com/users/Mai#0888/" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                  <a href="https://www.instagram.com/aleatoriamai/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+           
+        </div> 
+
+
+        <div class="row" id="copyright">
+          <div>
+            Copyright © Maite Arakaki 2023 
+          </div>
+        </div>
+            
+
+      </div>
+    </footer>
 </html>

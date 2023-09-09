@@ -4,11 +4,19 @@
 body {
   background: #DCD0FF;
   margin: 0;
-  font-family: 'Sen', sans-serif;
+}
+
+a{
+  text-decoration: none;
 }
 
 nav{
   background-color: white;
+}
+
+#game-body{
+  font-family: 'Sen', sans-serif;
+  height:80vh;
 }
 
 #colorDisplay {
