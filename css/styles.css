@@ -42,14 +42,8 @@
 }
 
 #about, #contact {
-    /* margin-top:5%; */
     padding: 3% 10% 3% 10%;
 }
-
-/* #contact-form > .btn {
-    left: 50%;
-    position:relative;
-} */
 
 footer{
     font-size: xx-small;
