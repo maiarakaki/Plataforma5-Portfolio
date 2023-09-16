@@ -33,7 +33,7 @@
     padding: 3%;
 }
 
-#portfolio > .row > .col> img{
+#portfolio > .row > .col> img, #shoes-img{
     width:300px;
     max-height: 300px;
     border-radius: 10%;
@@ -42,14 +42,8 @@
 }
 
 #about, #contact {
-    /* margin-top:5%; */
     padding: 3% 10% 3% 10%;
 }
-
-/* #contact-form > .btn {
-    left: 50%;
-    position:relative;
-} */
 
 footer{
     font-size: xx-small;
@@ -93,23 +87,6 @@ footer{
     color:white;
 }
 
-/* 
-
-.fa-linkedin{
-    color:#0e76a8;
-}
-
-.fa-github{
-    color:#171515;
-}
-
-.fa-instagram{
-    color: #C13584;
-}
-
-.fa-discord{
-    color:#5865F2;
-}  */
 
 #footer-contact {
     background-color: #8D81B3;

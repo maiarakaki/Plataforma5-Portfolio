@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+
+body {
+  background: #DCD0FF;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  background-color: white;
+}
+
+#game-body{
+  font-family: 'Sen', sans-serif;
+  height:80vh;
+}
+
+#colorDisplay {
+  display: block;
+  font-size: 200%;
+}
+
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: #6E6980;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  outline: none;
+}
+
+.square {
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  background-color: burlywood;
+  margin: 10px;
+  border-radius: 10%;
+  transition: background 0.5s;
+}
+
+.colors-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  background: #8D81B3;
+}
+
+#message {
+  color: black;
+}
+
+.selected {
+  background-color: #8D81B3;
+  color: white;
+}
