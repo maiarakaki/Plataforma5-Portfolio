@@ -1,10 +1,11 @@
 body{
     background-color: #DCD0FF;
+    height: 100vh;
 }
 
 .main-container{
     margin:0 auto;
-    height:80vh;
+    height: 70vh;
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -31,7 +32,7 @@ a{
     width: 50px;
     height: 50px;
     margin: 5px;
-    background-color: #A385FF;
+    background-color: #E378FF;
     color:white;
 }
 
@@ -60,14 +61,14 @@ a{
 
 .boton-editar{
     background:none;
-    color: #A385FF;
+    color: #8D81B3;
     font-size: 1.14rem;
     font-family: "Montserrat", sans-serif;
 }
 
 .boton-remover{
     border-radius: 10px;
-    background-color: #A385FF;
+    background-color: #8D81B3;
     font-size: 20px;
     color:white;
 }
@@ -77,4 +78,13 @@ a{
     width: 50px;
     margin: 0px 5px;
     border:none;
+}
+
+.item button:hover{
+    opacity: 90%;
+}
+
+.container{
+    overflow: scroll;
+    margin-bottom: 10px;
 }
