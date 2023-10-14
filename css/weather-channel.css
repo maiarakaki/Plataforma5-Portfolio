@@ -1,5 +1,12 @@
 body{
+    font-family: "Roboto", sans-serif;
     background-color: #DCD0FF;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
 }
 
 a{
@@ -8,4 +15,58 @@ a{
 
 main{
     height: 75vh;
+}
+
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background: #ff1e42;
+}
+
+.widget-container {
+    background-color: white;
+    color: #1e2432;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 50px;
+    visibility : hidden;
+    margin: 50px auto;
+}
+
+.cities {
+    padding: 40px 10%; 
+}
+
+#city {
+    font-size: 2rem;
+    color: #717681;
+}
+
+#temp {
+    font-size: 5rem;
+    font-weight: bold;
 }
