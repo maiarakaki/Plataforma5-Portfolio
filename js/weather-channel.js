@@ -21,7 +21,7 @@ async function loadCity(){
     document.querySelector(".widget-container").style.visibility = "visible"
     document.getElementById("city").textContent = data.name;
     console.dir(data);
-    document.getElementById("temp").innerHTML = `${data.main.temp} <sup>°C</sup>`;
+    document.getElementById("temp").innerHTML = `${Math.round(data.main.temp)} <sup>°C</sup>`;
     document.getElementById("wicon").src =`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     document.getElementById("description").textContent = data.weather[0].description;
 }

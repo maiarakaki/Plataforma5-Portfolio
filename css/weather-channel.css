@@ -40,10 +40,14 @@ button {
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.1em;
-    padding: 15px 20px;
+    padding: 10px 15px;
     margin-left: 15px;
     border-radius: 5px;
-    background: #ff1e42;
+    background: #E378FF;
+}
+
+button:hover {
+    background: #824491;
 }
 
 .widget-container {
@@ -69,4 +73,27 @@ button {
 #temp {
     font-size: 5rem;
     font-weight: bold;
+}
+
+sup {
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+img {
+    width: 4rem;
+}
+
+#description {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #717681;
+}
+
+.heading-container {
+    text-align: center;
+}
+
+main{
+    min-height: 100vh;
 }
