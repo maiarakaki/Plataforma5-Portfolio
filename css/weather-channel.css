@@ -13,10 +13,6 @@ a{
     text-decoration: none;
 }
 
-main{
-    height: 75vh;
-}
-
 button,
 input {
   border: none;
@@ -57,8 +53,9 @@ button:hover {
     height: 350px;
     border-radius: 20px;
     margin-left: 50px;
-    visibility : hidden;
+    /* visibility : hidden; */
     margin: 50px auto;
+    display:none;
 }
 
 .cities {
@@ -94,6 +91,6 @@ img {
     text-align: center;
 }
 
-main{
-    min-height: 100vh;
+.wrapper{
+    min-height: calc(100vh - 150px);
 }

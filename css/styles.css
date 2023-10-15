@@ -46,9 +46,11 @@
 }
 
 footer{
+    height:150px;
     font-size: xx-small;
     text-align: center;
 }
+
 
 #direccion, #redes{
     text-align: left;
@@ -97,5 +99,5 @@ footer{
     background-color: #6E6980;
     padding-top:10px;
     padding-bottom:10px;
-
+    
 }

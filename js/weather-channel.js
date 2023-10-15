@@ -24,7 +24,7 @@ function loadCity(){
     submitBtn.addEventListener("click", loadCity);
     
     function displayData(data){
-        document.querySelector(".widget-container").style.visibility = "visible"
+        document.querySelector(".widget-container").style.display = "block";
         document.getElementById("city").textContent = data.name;
         console.dir(data);
         document.getElementById("temp").innerHTML = `${Math.round(data.main.temp)} <sup>°C</sup>`;
