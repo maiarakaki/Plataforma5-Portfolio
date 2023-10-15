@@ -9,16 +9,21 @@ function getQueryStringCity(){
 
 function loadCity(){
     let city = getQueryStringCity();
-    // console.log(city);
-    var keyI = "&appid=95176c8edea30e33338e0eaddd53a916&units=metric&lang=es"
+    
+    if(city === ""){
+        alert("Ingrese una ciudad!");
+    } else {
+        var keyI = "&appid=95176c8edea30e33338e0eaddd53a916&units=metric&lang=es"
+    
+        $.getJSON("http://api.openweathermap.org/data/2.5/weather?q="+city+keyI)
+        .done((data)=> displayData(data))
+        .fail(function(){
+            console.log("failed");
+            alert(`La ciudad ${city.replace("%20", " ")} no existe!`);
+        })
+        .always(clearInput());
 
-    $.getJSON("http://api.openweathermap.org/data/2.5/weather?q="+city+keyI)
-    .done((data)=> displayData(data))
-    .fail(function(){
-        console.log("failed");
-        alert("Debe ingresar una ciudad válida!");
-    })
-    .always(clearInput());
+    }
 }
     
     submitBtn.addEventListener("click", loadCity);
