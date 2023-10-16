@@ -1,9 +1,13 @@
 body{
-    font-family: "Roboto", sans-serif;
     background-color: #DCD0FF;
 }
 
+.navbar{
+    margin-bottom: 3%;
+}
+
 h1 {
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 4rem;
     letter-spacing: 0.02em;
