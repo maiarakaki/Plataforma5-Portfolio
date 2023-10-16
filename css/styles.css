@@ -46,9 +46,16 @@
 }
 
 footer{
+    width: 100vw;
+    height:150px;
     font-size: xx-small;
     text-align: center;
 }
+
+
+.wrapper{
+    min-height: calc(100vh - 150px);
+  }
 
 #direccion, #redes{
     text-align: left;
@@ -97,5 +104,5 @@ footer{
     background-color: #6E6980;
     padding-top:10px;
     padding-bottom:10px;
-
+    
 }
