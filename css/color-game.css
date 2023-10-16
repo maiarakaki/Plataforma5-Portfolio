@@ -16,7 +16,7 @@ nav{
 
 #game-body{
   font-family: 'Sen', sans-serif;
-  height:80vh;
+  height:80%;
 }
 
 #colorDisplay {
@@ -65,6 +65,7 @@ button {
   max-width: 600px;
   margin: 0 auto;
   margin-top: 20px;
+  min-height:400px;
 }
 
 h1 {
@@ -83,3 +84,4 @@ h1 {
   background-color: #8D81B3;
   color: white;
 }
+
