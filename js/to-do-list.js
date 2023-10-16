@@ -6,6 +6,13 @@ addButton.addEventListener("click", ()=>{
     checkInput();
 });
 
+taskInput.addEventListener("keypress", function(event){
+    if(event.key === "Enter"){
+        event.preventDefault();
+        checkInput();
+    }
+});
+
 class Item {
     constructor(input){
         this.createDiv(input);
