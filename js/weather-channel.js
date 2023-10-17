@@ -15,7 +15,7 @@ function loadCity(){
     } else {
         var keyI = "&appid=95176c8edea30e33338e0eaddd53a916&units=metric&lang=es"
     
-        $.getJSON("http://api.openweathermap.org/data/2.5/weather?q="+city+keyI)
+        $.getJSON("https://api.openweathermap.org/data/2.5/weather?q="+city+keyI)
         .done((data)=> displayData(data))
         .fail(function(){
             console.log("failed");
