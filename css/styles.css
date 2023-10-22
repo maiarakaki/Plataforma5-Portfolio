@@ -152,3 +152,15 @@ h3{
     font-size: x-large;
     letter-spacing: 0.1em;
 }
+
+@media screen and (max-width: 991px) {
+    .figure-caption{
+        opacity:1;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #portfolio > div > div:nth-child(2) > div{
+        align-items: end;
+    }
+}
