@@ -41,7 +41,7 @@ button {
     font-weight: bold;
     letter-spacing: 0.1em;
     padding: 10px 15px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     border-radius: 5px;
     background: #E378FF;
 }
