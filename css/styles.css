@@ -158,3 +158,9 @@ h3{
         opacity:1;
     }
 }
+
+@media screen and (min-width: 992px) {
+    #portfolio > div > div:nth-child(2) > div{
+        align-items: end;
+    }
+}
